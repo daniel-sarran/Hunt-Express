@@ -8,8 +8,24 @@
   },
   "author": "Daniel Sarran",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "config": "^3.3.6",
+    "debug": "^2.6.9",
+    "helmet": "^4.6.0",
+    "joi": "^17.4.0",
+    "mongoose": "^5.13.1",
+    "morgan": "^1.10.0"
+  },
   "devDependencies": {
     "express": "^4.17.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniel-sarran/Hunt-Express.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/daniel-sarran/Hunt-Express/issues"
+  },
+  "homepage": "https://github.com/daniel-sarran/Hunt-Express#readme"
 }
