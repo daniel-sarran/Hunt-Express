@@ -28,6 +28,8 @@ const mongodb = process.env.MONGODB_URL || "mongodb://localhost:27017/hunt";
 const user = process.env.MONGODB_USER || "";
 const password = process.env.MONGODB_PASSWORD || "";
 
+console.log(`Connecting to ${mongodb} with ${user}`);
+
 mongoose
   .connect(mongodb, {
     useNewUrlParser: true,
@@ -36,17 +38,12 @@ mongoose
     pass: password,
   })
   .then(() => console.log("Connected to MongoDB..."))
-  .catch((err) => console.error("Could not connect to MongoDB...", err));
+  .catch((err) => {
+    console.error("Could not connect to MongoDB...", err);
+    process.exit(1);
+  });
 
-app.get("/", (req, res) => {
-  const test = {
-    greeting: "hello!",
-  };
-  JSON.stringify(test);
-  res.send();
-});
-
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 80;
 app.listen(port, () =>
   console.log(`Listening on port ${port}...\n
 If AWS: http://ec2-18-222-26-166.us-east-2.compute.amazonaws.com:${port}/`)

@@ -4,13 +4,60 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Hunt-Express: Get The Bag</title>
+    <script src="https://kit.fontawesome.com/3acc8d3f66.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <div id="container">
-      
+    <div class="form-container">
+      <form action="#">
+        <div>
+          <div class="form-input">
+            <label for="company">*Company</label>
+            <input type="text" name="company" id="company" />
+          </div>
+
+          <div class="form-input">
+            <label for="position">*Position</label>
+            <input type="text" name="position" id="position" />
+          </div>
+
+          <div class="form-input">
+            <label for="date-applied">*Date Applied</label>
+            <input type="date" name="date-applied" id="date-applied" />
+          </div>
+
+          <div class="form-input">
+            <label for="stage">Stage</label>
+            <select id="stage" name="stage">
+              <option value="application submitted">Application Submitted</option>
+              <option value="online assessment">Online Assessment</option>
+              <option value="interview: phone">Interview: Phone</option>
+              <option value="interview: video`">Interview: Video</option>
+              <option value="interview: face-to-face">Interview: Face-to-Face</option>
+              <option value="rejection"">Rejection</option>
+              <option value="interview: face-to-face">Offer</option>
+            </select>
+          </div>
+
+          <div class="form-input">
+            <label for="notes">Notes</label>
+            <input type="text" name="notes" id="notes" />
+          </div>
+
+          <div class="form-input">
+            <input type="submit" id="form-submit" />
+          </div>
+        </div>
+      </form>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+    <div class="content-container">
+      <table>
+        <thead>
+          <th>Job Applications
+        </thead>
+        <tbody class="table-body"></tbody>
+      </table>
+    </div>
     <script src="app.js"></script>
   </body>
 </html>
