@@ -91,7 +91,7 @@ async function getAllJobs() {
     let cancelButton = document.createElement("button");
     cancelButton.type = "button";
     cancelButton.textContent = "Cancel";
-    cancelButton.setAttribute("onclick", `cancelUnsavedEditRow()`);
+    cancelButton.setAttribute("onclick", `cancelRowEdit()`);
     cancelButton.setAttribute("class", "hidden");
 
     content.appendChild(editButton);

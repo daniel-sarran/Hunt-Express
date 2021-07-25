@@ -1,10 +1,10 @@
+require("dotenv").config();
 const mongoose = require("mongoose");
 const jobs = require("./routes/jobs");
+const { Job } = require("./models/job");
 const helmet = require("helmet");
 const express = require("express");
-const { Job } = require("./models/job");
 const app = express();
-require("dotenv").config();
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
