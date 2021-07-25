@@ -38,6 +38,7 @@ const Job = mongoose.model("Job", new mongoose.Schema({
       type: String,
       default: "",
       trim: true,
+      minlength: 0,
       maxlength: 255,
     },
   })
@@ -59,9 +60,8 @@ function validateJob(job) {
         "offer"
       )
       .required(),
-    notes: Joi.string(),
+    notes: Joi.string().optional().allow(""),
   });
-
   return schema.validate(job);
 }
 
