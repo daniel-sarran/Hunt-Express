@@ -2,7 +2,7 @@
 
 `Hunt-Express` is a web application to organize your job search: log details, track progress, advance, and decline job applications.
 
-I knew I wanted to organize my personal internship hunt and decided to build a tool to help me with that, while getting some exposure to web development.
+I knew I wanted to organize my personal internship hunt and decided to build a tool to help me with that, and got the added benefit of getting exposure to some areas of web development I wanted to tinker with (cloud deployment, full stack development).
 
 This project is driven by a NodeJS backend using Express to route and perform CRUD operations on MongoDB Atlas. 
 The frontend is a straightforward one-page display of tabular data. 
