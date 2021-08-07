@@ -14,7 +14,6 @@ It is hosted on Google Cloud Platform (GCP) using a custom-built Docker image on
 
 `Hunt-Express` is live on the cloud! After some minor polish we have a minimum viable product that is up and running. 
 
-![ButtonHighlight](https://user-images.githubusercontent.com/53810232/128596646-b4892313-8182-43be-8853-d9c2ab04fe8f.gif)
 ![CreateJobModal](https://user-images.githubusercontent.com/53810232/128596647-13b2adfc-6b90-4064-9062-6c710c4c67f2.gif)
 ![EditRow](https://user-images.githubusercontent.com/53810232/128596648-c7c65594-cc98-4500-bc7b-4989f94beab8.gif)
 
