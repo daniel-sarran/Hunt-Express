@@ -1,6 +1,6 @@
 # Hunt-Express
 
-`Hunt-Express` is a web application to organize the job search: log new positions applied to, recall dates, track progress per application, from "application submitted" to "offer" or "rejection" in a straightforward tabular format.
+`Hunt-Express` is a web application to organize the job search: log job applications, recall dates, track progress per application, and keep track of the stage of each application.
 
 I knew I wanted to organize my personal internship hunt and decided to build a tool to help me with that, and got the added benefit of getting exposure to web development beyond coursework.
 
@@ -17,12 +17,15 @@ It is hosted on Google Cloud Platform (GCP) using a custom-built Docker image on
 https://hunt-express-fqcmgqrbnq-uc.a.run.app/
 <br />
 <br />
+<br />
 ###### Navigating the table interface
 ![Scroll](https://user-images.githubusercontent.com/53810232/128596738-f8c2ec07-8f3e-4968-81de-2dfb97b90a41.gif)  
 <br />
 <br />
+<br />
 ###### New job entry button animation and modal window
 ![Modal](https://user-images.githubusercontent.com/53810232/128596979-9ca0e13b-3d36-4ce7-96b3-8c6161316255.gif)  
+<br />
 <br />
 <br />
 ###### Editing a job entry
