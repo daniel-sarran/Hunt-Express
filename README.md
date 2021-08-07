@@ -1,4 +1,5 @@
 # Hunt-Express
+###### Project Description
 
 `Hunt-Express` is a web application to organize the job search: log job applications, recall dates, and track progress.
 
@@ -7,7 +8,9 @@ I knew I wanted to organize my personal internship hunt and decided to build a t
 This project is driven by a NodeJS backend using Express to route and perform CRUD operations on MongoDB Atlas. 
 The frontend is a straightforward single-page display of tabular data. 
 It is hosted on Google Cloud Platform (GCP) using a custom-built Docker image on Cloud Run. 
-
+<br />
+<br />
+<br />
 
 
 ###### Developer Update - 7/25/2021
