@@ -1,6 +1,6 @@
 # Hunt-Express
 
-`Hunt-Express` is a web application to organize the job search: log job applications, recall dates, track progress per application, and keep track of the stage of each application.
+`Hunt-Express` is a web application to organize the job search: log job applications, recall dates, and track progress.
 
 I knew I wanted to organize my personal internship hunt and decided to build a tool to help me with that, and got the added benefit of getting exposure to web development beyond coursework.
 
