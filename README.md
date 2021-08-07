@@ -13,6 +13,7 @@ It is hosted on Google Cloud Platform (GCP) using a custom-built Docker image on
 ###### Developer Update - 7/25/2021
 
 `Hunt-Express` is live on the cloud! After some minor polish we have a minimum viable product that is up and running. 
+https://hunt-express-fqcmgqrbnq-uc.a.run.app/
 
 ![Scroll](https://user-images.githubusercontent.com/53810232/128596738-f8c2ec07-8f3e-4968-81de-2dfb97b90a41.gif)
 
